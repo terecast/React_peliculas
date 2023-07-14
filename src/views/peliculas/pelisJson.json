@@ -1,0 +1,39 @@
+{
+    "peliculas": [
+        {
+            "titulo": "Titanic",
+            "director": "James Cameron",
+            "año": 1997,
+            "portada": "https://i.discogs.com/R3gXW9clP47u0yioXW_DM-4VVJwbBXN9_uItLaHamtc/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2Nzk5/MC0xMTg1NTU2MzIw/LmpwZWc.jpeg",
+            "casificacion": true
+            
+        },
+    
+        {
+            "titulo": "El Padrino",
+            "director": "Francis Ford Copola",
+            "año": 1972,
+            "portada": "https://c.wallhere.com/photos/e1/eb/movies_Al_Pacino_The_Godfather_movie_poster_Michael_Corleone-189372.jpg!d",
+            "casificacion": true
+        },
+    
+        {
+            "titulo": "Inseption",
+            "director": "Christhopher Nolan",
+            "año": 2010,
+            "portada": "https://m1.paperblog.com/i/22/229728/inception-el-origen-suenos-T-1.jpeg",
+            "casificacion": true
+        },
+    
+        {
+            "titulo": "Pulp Fiction",
+            "director": "Quentin Tarantino",
+            "año": 1994,
+            "portada": "https://i0.wp.com/getaferadio.com/wp-content/uploads/2015/10/pulp-fiction-uma.png?fit=800%2C445",
+            "casificacion": true
+        }
+    
+    ]
+    
+
+}
