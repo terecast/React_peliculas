@@ -1,35 +1,83 @@
 /* Add a black background color to the top navigation */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 .topnav {
-    background-color: #333;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(227, 64, 46);
     overflow: hidden;
+    display: flex;
+    align-items: center;
+   
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
+
+  .container-nav-title{
+    width: 20%;
+    height: 60px;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    background-color: rgb(190, 42, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+
+  .container-nav-search{
+
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
   }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
+
+  .container-nav-search-input {
+    width: 90%;
+  }
+
+  .container-nav-search-input input {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
     color: white;
   }
 
-  .logo {
-    display: block;
-    float: left;
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
+  .container-nav-search-input input::placeholder {
+    color: white;
+
   }
+
+  .container-nav-profile {
+    margin-top: 20px;
+    width: 10%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .container-nav-profile span {
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: white;
+    
+
+  }
+
+  .container-nav-profile img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+
+
+  }
+
+  

@@ -1,18 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-import Pelicula from './views/peliculas/pelicula.jsx'
 import Opciones_menu from './views/menu/opciones_menu.jsx'
 import Elemento_footer from './views/footer/elemento_footer.jsx'
 import './index.css'
 import Home from './views/home/Home.jsx';
-import Peliculas from './views/peliculas/pelicula.jsx'
+import Peliculas from './views/peliculas/pelicula.jsx';
+import DetalleMovie from './views/detalles/DetalleMovie.jsx';
+
 
 
 const router = createBrowserRouter([{
+  
   path: "/",
+  errorElement: <h1>404 Not Found</h1>,
   element: <Home />,
   children: [
     {
@@ -20,21 +23,40 @@ const router = createBrowserRouter([{
       element: <h1>Welcome</h1>,
     },
     {
-    path: "/peliculas",
-    element: <Pelicula/>
+    path: "/cienciaFiccion",
+    element: <Peliculas type="cienciaFiccion" key="cienciaFiccion"/>,
+    },
+
+    {
+      path: "/comedia",
+      element: <Peliculas type="comedia" key="comedia"/>,
+      },
+    {
+      path: "/terror",
+      element: <Peliculas type="terror" key="terror"/>,
+    },
+    {
+      path: "/documental",
+      element: <Peliculas type="documental" key="documental"/>,
+    },
+    {
+      path: "/independientes",
+      element: <Peliculas type="independientes" key="independientes"/>,
+    },
+
+    {
+      path: "/:view",
+      element: <DetalleMovie/>
     }
 
   ]
+
 },
-
-]
-
-
-)
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  
    <RouterProvider router={router}/>
    
-  </React.StrictMode>
+ 
 )

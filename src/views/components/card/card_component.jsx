@@ -15,21 +15,22 @@ function Card({movie}) {
 
   return (
     <div className="card-style">
+      <img src= {movie.portada} alt="" className= 'portada' />
 
-      <img src= {movie.portada} alt="" className= 'portada' ></img>
-      
-      
-      <div className='ma-10'>
-        <div>
-          <span onClick={handlerLike}> {isLikes ? <FaHeart className='icon-Red'/> :  <FaRegHeart/> } </span>
+      <div className='movie-description ma-10'>
+        <div className='movie-description-info'>
+         <h1 className='movie-title'>{movie.titulo}</h1>
+         <p className='movie-subtitle'>{movie.director}</p>
+         <p>{movie.año}</p>
         </div>
-
-        <h1>{movie.titulo}</h1>
-        <p>{movie.director}</p>
-        <p>{movie.año}</p>
-
+        
+        <div className='like-button'>
+          <span onClick={handlerLike}> 
+          {" "}
+          {isLikes ? <FaHeart className='icon-Red'/> :  <FaRegHeart/> } 
+          </span>
+        </div>
       </div>
-      
     </div>
 
   )
