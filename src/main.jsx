@@ -12,6 +12,7 @@ import DetalleMovie from './views/detalles/DetalleMovie.jsx';
 
 
 
+
 const router = createBrowserRouter([{
   
   path: "/",
@@ -21,6 +22,10 @@ const router = createBrowserRouter([{
     {
       path: "/",
       element: <h1>Welcome</h1>,
+    },
+    {
+      path:"/Home",
+      element: <introHome/>
     },
     {
     path: "/cienciaFiccion",

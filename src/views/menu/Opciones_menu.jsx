@@ -1,5 +1,5 @@
 import './opciones_menu.css'
-import logo from './icons/logonetflix.png'
+import cinta from './icons/cinta.png'
 import {NavLink} from 'react-router-dom'
 
 
@@ -12,14 +12,18 @@ function Opciones_menu(){
 
         <div className='container-nav-title'>
           <span>
-            MEDIA APP
+            MOVIE WORLD
           </span>
+          <img src={cinta} alt="" />
         </div>
 
         <div className='container-nav-search'>
 
           <div className='container-nav-search-input'>
-            <input type="text" placeholder='Search movies'/>
+            
+            <p>Tu entrada al mundo de las peliculas en tus Manos!</p>
+            
+            
           </div>
 
           <div className='container-nav-profile'>

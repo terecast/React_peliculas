@@ -1,5 +1,6 @@
 /* Add a black background color to the top navigation */
 header {
+  
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -11,7 +12,7 @@ header {
     background-color: rgb(227, 64, 46);
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: space-between;
    
   }
 
@@ -23,34 +24,27 @@ header {
     background-color: rgb(190, 42, 26);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
 
   }
 
   .container-nav-search{
 
-    width: 70%;
+   
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 
   }
 
   .container-nav-search-input {
-    width: 90%;
+    justify-content: space-between;
+    
+    display: flex;
   }
 
-  .container-nav-search-input input {
-    margin-left: 20px;
-    border: none;
-    background-color: transparent;
-    color: white;
-  }
 
-  .container-nav-search-input input::placeholder {
-    color: white;
-
-  }
 
   .container-nav-profile {
     margin-top: 20px;
@@ -60,9 +54,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-self: center;
+
   }
 
   .container-nav-profile span {
+    justify-self: center;
     font-size: 13px;
     margin-bottom: 3px;
     color: white;
@@ -71,10 +67,11 @@ header {
   }
 
   .container-nav-profile img {
-
-    width: 50px;
-    height: 50px;
+    
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    
    
 
 
