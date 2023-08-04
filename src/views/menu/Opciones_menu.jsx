@@ -1,8 +1,5 @@
 import './opciones_menu.css'
 
-import {NavLink} from 'react-router-dom'
-
-
 function Opciones_menu(){
   return (
     
