@@ -4,7 +4,7 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Opciones_menu from './views/menu/opciones_menu.jsx'
-import Elemento_footer from './views/footer/elemento_footer.jsx'
+
 import './index.css'
 import Home from './views/home/Home.jsx';
 import Peliculas from './views/peliculas/pelicula.jsx';
