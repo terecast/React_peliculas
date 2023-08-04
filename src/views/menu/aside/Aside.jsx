@@ -2,8 +2,6 @@ import React from 'react'
 import './aside.css';
 import {NavLink} from 'react-router-dom'
 
-
-
 export default function Aside() {
   return (
     <aside className='aside'>

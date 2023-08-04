@@ -14,16 +14,11 @@ export default function Home() {
          <Opciones_menu/>
         </div>
 
-        <div></div>
-
         <div className='main-container'>
          <IntroHome className="intro"/>
-        
          <Aside className="aside-item"/>
          <Outlet className="outlet-item"/>
         </div>
-
-
     </>
  
   )

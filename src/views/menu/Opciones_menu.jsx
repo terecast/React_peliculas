@@ -1,5 +1,5 @@
 import './opciones_menu.css'
-import cinta from './icons/cinta.png'
+
 import {NavLink} from 'react-router-dom'
 
 

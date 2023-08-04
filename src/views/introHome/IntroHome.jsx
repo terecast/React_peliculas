@@ -7,7 +7,7 @@ export default function IntroHome() {
         <div className="row">
             <div className="col">
                 <h1>BIENVENIDO</h1>
-                <h2>El mundo de peliculas sin salir de casa</h2>
+                <h2>Un mundo de peliculas sin salir de casa</h2>
             </div>
 
             <div className='movieTime-img'>

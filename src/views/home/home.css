@@ -1,17 +1,12 @@
 .main-container {
     width: 100%;
     display: flex;
-    
-
 }
 .welcome{
     
     right: 100%;
     font-size:xx-large;
-    text-align: start;
-   
+    text-align: start; 
     padding: 300px;
-   
-    
 }
 
