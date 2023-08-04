@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Opciones_menu from './views/menu/opciones_menu.jsx'
+
+
 
 import './index.css'
 import Home from './views/home/Home.jsx';
