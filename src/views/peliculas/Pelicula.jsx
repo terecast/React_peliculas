@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Card from '../components/card/card_component.jsx'
 import { Col, Row } from "react-bootstrap";
 import './styles/pelicula.css'
-//import pelisJson from'./pelisJson.json'
+
 
 export default function Pelicula(props) {
 
@@ -11,7 +11,7 @@ export default function Pelicula(props) {
   const [pelisFilter, setPelisFilter] = useState ([]);
   const [loading, setLoading] = useState (true);
   const [error, setError] = useState(null);
-  //Estado de la barra de busqueda
+  
   const [search, setSearch] =useState('');
 
 
@@ -35,14 +35,14 @@ export default function Pelicula(props) {
         setSearch(e.target.value)
 
         console.log(search)
-        //Filtrado de peliculas
+        
         
         if (!value) {
             setPelisFilter(pelisState.peliculas)
-            //setPelis(pelisFilter)
+            
             
         }else{
-            //Filtrar el valor segun el valor de la busqueda
+           
             const filteredPeliculas  = pelisState.peliculas.filter((movie) => 
          movie.titulo.toLowerCase().includes(value.toLowerCase()));
          
@@ -104,6 +104,3 @@ export default function Pelicula(props) {
 };
 
 
-/* Crear componente para Menu
-otro componente para footer
-un componente para sub menu*/

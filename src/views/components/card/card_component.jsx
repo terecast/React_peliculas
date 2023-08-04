@@ -36,9 +36,6 @@ function Card({movie}) {
   )
     
 
-
-
-  
 };
 
 export default Card;
