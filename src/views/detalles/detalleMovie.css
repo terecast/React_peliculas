@@ -1,6 +1,9 @@
 .detalle-container{
+    background-color: rgb(36, 42, 48);
     width: 100%;
-    padding-top: 80px;
+    margin-top: 2%;
+    padding-top: 100px;
+    padding-bottom: 100vh;
     position: absolute;
     left: 20%;
 

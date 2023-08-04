@@ -16,7 +16,8 @@
 .aside a {
     height: 50px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 20px;
+    font-style: bold;
     text-align: center;
     color: white;
     text-decoration: none;
