@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css'
 import Home from './views/home/Home.jsx';
-import Pelicula from './views/peliculas/pelicula.jsx';
+import Pelicula from './views/peliculas/Pelicula.jsx';
 import DetalleMovie from './views/detalles/DetalleMovie.jsx';
 
 
