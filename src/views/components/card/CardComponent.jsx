@@ -1,5 +1,5 @@
 
-import './card_component.css';
+import './cardComponent.css';
 import { useState } from 'react';
 import {FaHeart, FaRegHeart} from "react-icons/fa";
 

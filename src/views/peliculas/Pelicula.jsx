@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
-import Card from '../components/card/card_component.jsx'
+import Card from '../components/card/CardComponent.jsx'
 import { Col, Row } from "react-bootstrap";
 import './styles/pelicula.css'
 
@@ -48,12 +48,8 @@ export default function Pelicula(props) {
          
          setPelisFilter(filteredPeliculas);
          
-
-
         }
 
-        
-        
     }
        
     if (loading) {

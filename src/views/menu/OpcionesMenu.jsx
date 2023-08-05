@@ -1,4 +1,4 @@
-import './opciones_menu.css'
+import './opcionesMenu.css'
 
 function OpcionesMenu(){
   return (
