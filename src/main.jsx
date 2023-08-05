@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css'
 import Home from './views/home/Home.jsx';
-import Peliculas from './views/peliculas/pelicula.jsx';
+import Pelicula from './views/peliculas/pelicula.jsx';
 import DetalleMovie from './views/detalles/DetalleMovie.jsx';
 
 
@@ -30,24 +30,24 @@ const router = createBrowserRouter([{
     },
     {
     path: "/cienciaFiccion",
-    element: <Peliculas type="cienciaFiccion" key="cienciaFiccion"/>,
+    element: <Pelicula type="cienciaFiccion" key="cienciaFiccion"/>,
     },
 
     {
       path: "/comedia",
-      element: <Peliculas type="comedia" key="comedia"/>,
+      element: <Pelicula type="comedia" key="comedia"/>,
       },
     {
       path: "/terror",
-      element: <Peliculas type="terror" key="terror"/>,
+      element: <Pelicula type="terror" key="terror"/>,
     },
     {
       path: "/documental",
-      element: <Peliculas type="documental" key="documental"/>,
+      element: <Pelicula type="documental" key="documental"/>,
     },
     {
       path: "/independientes",
-      element: <Peliculas type="independientes" key="independientes"/>,
+      element: <Pelicula type="independientes" key="independientes"/>,
     },
 
     {
