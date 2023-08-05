@@ -1,6 +1,6 @@
 import './opciones_menu.css'
 
-function Opciones_menu(){
+function OpcionesMenu(){
   return (
     
     <header> 
@@ -30,4 +30,4 @@ function Opciones_menu(){
   
 }
 
-export default Opciones_menu
+export default OpcionesMenu
